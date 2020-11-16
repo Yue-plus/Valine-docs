@@ -5,6 +5,9 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
+## hexo-theme-ils
+> [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
+
 ## hexo-theme-matery
 > [Supported](https://github.com/blinkfox/hexo-theme-matery) `latest`
 
@@ -106,3 +109,6 @@ title: 在Hexo 中使用
 
 ## hexo-theme-yun
 > [Supported](https://github.com/YunYouJun/hexo-theme-yun) `latest`
+
+## hexo-theme-arknights
+> [Supported](https://github.com/Yue-plus/hexo-theme-arknights) `latest`

@@ -1,7 +1,44 @@
 ---
 title: 更新日志
 ---
+## v1.4.11~v1.4.14, 2020-04-26
+- `F` 紧急重新修复可能存在的xss漏洞 [#298](https://github.com/xCss/Valine/issues/298) [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293)
+- `F` 再次修复阅读数回填失败的Bug
+- `F` 修复某些异常未正常捕获的Bug
 
+## v1.4.10, 2020-04-25
+- `F` 修复表情判断失败的Bug [#286](https://github.com/xCss/Valine/issues/286) [#296](https://github.com/xCss/Valine/issues/296) 
+- `F` 修复可能存在的xss漏洞 [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) 
+- `F` 修复阅读数回填失败的Bug
+- `F` 修复获取QQ信息时的缓存Bug
+- `F` 表情size适配修复 [#295](https://github.com/xCss/Valine/issues/295) 
+- `U` 一些样式修改
+- `U` 代码逻辑优化
+
+## v1.4.8~v1.4.9, 2020-04-23  
+- `F` 优化SDK加载逻辑，修复`Code 98`错误 [#289](https://github.com/xCss/Valine/issues/289) [#288](https://github.com/xCss/Valine/issues/288) [#285](https://github.com/xCss/Valine/issues/285)
+- `F` 修复文章列表`阅读次数`回填失败的Bug [#287](https://github.com/xCss/Valine/issues/287) [#272](https://github.com/xCss/Valine/issues/272) 
+- `U` 一些样式优化 [#283](https://github.com/xCss/Valine/issues/283)
+- `U` 代码逻辑优化
+
+
+## v1.4.6~v1.4.7, 2020-04-22
+- `A` 新增`必填项`设置 [#281](https://github.com/xCss/Valine/issues/281) [#59](https://github.com/xCss/Valine/issues/59)
+- `A` 新增`评论框`获取`QQ头像`和`QQ昵称`启用属性`enableQQ`，需主动启用 [#277](https://github.com/xCss/Valine/issues/277)
+- `F` 修复样式被覆盖的Bug [#284](https://github.com/xCss/Valine/issues/284) [#270](https://github.com/xCss/Valine/issues/270)
+- `F` 修复使用了低版本的`av-min.js`造成的初始化错误
+- `U` 一些样式优化
+- `U` 代码逻辑优化
+
+## v1.4.5, 2020-04-21
+- `A` 新增QQ头像的支持(`昵称框`输入QQ号试试) [#192](https://github.com/xCss/Valine/issues/192)
+- `A` 新增自定义表情 [#261](https://github.com/xCss/Valine/issues/261) [#260](https://github.com/xCss/Valine/issues/260) [#150](https://github.com/xCss/Valine/issues/150)
+- `F` 修复marked渲染错误的Bug [#275](https://github.com/xCss/Valine/issues/275) [#269](https://github.com/xCss/Valine/issues/269)
+- `F` 修复代码高亮样式被覆盖的Bug [#270](https://github.com/xCss/Valine/issues/270)
+- `F` 修复阅读次数异常的Bug [#272](https://github.com/xCss/Valine/issues/272)
+- `F` 修复在夜间模式下样式渲染异常的Bug
+- `U` 一些样式优化
+- `U` 代码逻辑优化
 
 ## v1.4.0~1.4.4, 2020-04-11  
 - `A` 新的SDK加载逻辑

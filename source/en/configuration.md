@@ -8,8 +8,8 @@ title: Config Reference
 <script>
     new Valine({
         el:'#vcomment',
-        appId:'<APP_ID>',
-        appKey:'<APP_KEY>'
+        appId:'Your appId',
+        appKey:'Your appKey'
     })
 </script>
 
@@ -18,8 +18,8 @@ title: Config Reference
     var valine = new Valine();
     valine.init({
         el:'#vcomment',
-        appId:'<APP_ID>',
-        appKey:'<APP_KEY>'
+        appId:'Your appId',
+        appKey:'Your appKey'
     })
 </script>
 ```
@@ -36,14 +36,14 @@ The DOM element to be mounted on initialization. It can be a CSS selector string
 - Default:`null`
 - Required:`true`
 
-Application `<APP_ID>` from `Leancloud`.
+Application `appId` from `Leancloud`.
 
 ## appKey
 - Type:`String`
 - Default:`null`
 - Required:`true`
 
-Application `<APP_KEY>` from `Leancloud`.
+Application `appKey` from `Leancloud`.
 
 ## <del>region</del>
 - Type:`String`
@@ -99,7 +99,7 @@ Optional value:
 
 ## avatar
 - Type:`String`
-- Default:`mm`
+- Default:`mp`
 - Required:`false`
 
 `Gravatar` type. 
@@ -186,3 +186,44 @@ Record reviewer IP.
 
 > ⚠️ This configuration is suitable for domestic `custom domain name` users, `overseas version` will be automatically detected (no need to manually fill in) `v1.3.10+`
 
+
+## emojiCDN
+- Type: `String`
+- Default: ``
+- Required: `false`
+
+Set `Emoji Pack CDN`, refer to [Custom Emoji](/en/emoji.html)
+
+> `v1.4.5+` 
+
+
+## emojiMaps
+- Type: `Object`
+- Default: `null`
+- Required: `false`
+
+Set `Emoji Packet Mapping', refer to [Custom Emoji](/en/emoji.html)
+
+> `v1.4.5+` 
+
+
+## enableQQ
+- Type: `Boolean`
+- Default: `false`
+- Required: `false`
+
+Whether to enable the `Nickname box` to automatically get `QQ Nickname` and `QQ Avatar`, the default is `off`, you need the `blogger/webmaster` to actively enable
+
+> `v1.4.6+`
+
+## requiredFields
+- Type: `Array`
+- Default: `[]`
+- Required: `false`
+
+Set `required fields`, default `anonymous`, optional values:
+
+- `['nick']`
+- `['nick','mail']`
+
+> `v1.4.6+`
